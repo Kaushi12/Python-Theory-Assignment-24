@@ -1,0 +1,32 @@
+1) def defined functions                                                                                                                       lambda functions
+
+Easy to interpret
+                                                                                                                                           Interpretation might be tricky
+
+Can consists of any number of execution statements inside the function definition                                           The limited operation can be performed using lambda functions
+
+To return an object from the function, return should be explicitly defined                                                               No need of using the return statement
+
+Execution time is relatively slower for the same operation performed using lambda functions                                  Execution time of the program is fast for the same operation
+
+Defined using the keyword def and holds a function name in the local namespace                               Defined using the keyword lambda and does not compulsorily hold a function name                                                                                                              in the local namespace
+
+2) Lambda functions allow you to create small, single-use functions that can save time and space in your code. They ares also useful when you need to call a function that expects a function as an argument for a callback such as Map() and Filter() .
+
+3) The map() function iterates through all items in the given iterable and executes the function we passed as an argument on each of them.
+Similar to map(), filter() takes a function object and an iterable and creates a new list.
+As the name suggests, filter() forms a new list that contains only elements that satisfy a certain condition, i.e. the function we passed returns True.
+reduce() works by calling the function we passed for the first two items in the sequence. The result returned by the function is used in another call to function alongside with the next (third in this case), element.
+This process repeats until we've gone through all the elements in the sequence.
+
+4) Function annotations provide a way of associating various parts of a function with arbitrary python expressions at compile time. The PEP-3107 makes no attempt to introduce any kind of standard semantics, even for the built-in types. All this work left to the third-party libraries.
+
+5) A recursive function is a function in code that refers to itself for execution. Recursive functions can be simple or elaborate. They allow for more efficient code writing, for instance, in the listing or compiling of sets of numbers, strings or other variables through a single reiterated process.
+
+6) Safe: It can be used without causing harm.
+Secure: It can't be hacked.
+Reliable: It functions as it should, every time.
+Testable: It can be tested at the code level.
+Maintainable: It can be maintained, even as your codebase grows.
+Portable: It works the same in every environment.
+
